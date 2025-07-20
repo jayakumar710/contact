@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html lang="eng">
+<head>    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width",initial-scale="1.0">   
+<title>Document</title>
+<style>
+    body
+    {
+    background-image: url(im.3.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    table
+    {
+      background-color:transparent;
+       border:1px;
+       width: 500px;
+       height: 500px;
+       margin:auto; 
+     
+    } 
+    table input
+    {
+     background-color: rgb(15, 121, 219);
+     color: rgb(0, 0, 0);
+    }
+    radio{
+        background-color: black;
+    }
+    textarea{
+        background-color:rgb(15, 121, 219);
+    }
+     select{
+        background-color: rgb(15, 121, 219);
+    }
+    button{
+        background-color: rgb(255, 0, 0);
+        margin-left: 100px;
+        height: 40px;
+        width: 100px;
+        border:2px solid black;
+        color: aliceblue;   
+        border-radius: 8px;
+    }
+    h1
+    {
+        color: azure;
+    }
+    label
+    {
+        color: azure;
+    }
+</style>
+</head>
+<body>
+    <fieldset>
+    <form >
+      
+    <table border="1">
+        
+        <caption><h1><ins>Contact Form :</ins><h1> </caption>
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="text" value="" required /></td>
+          </td>
+        </tr>
+        <tr>
+            <td><label>Phone Number:</label></td>
+            <td><input type="text" pattern=[0-9]{10} name="phonenumber" value="" required/> </td>
+        </tr>
+        <tr>
+           <td><label>Age:</label></td>
+            <td><input type="text" name="number" value="" required/></td> 
+        </tr>         
+        <tr>
+           <td><label>Email:</label></td>
+           <td><input type="email" name="email" value="" required/> </td>
+        </tr>
+        <tr>
+           <td> <label>Address:</label></td>
+            <td><textarea required></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><button type="submit">Register</button></td>
+        </tr>
+        </fieldset>
+</table>
+
+</form>
+</body>
+</html>
+
